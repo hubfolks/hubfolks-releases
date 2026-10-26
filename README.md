@@ -11,15 +11,19 @@ Latest release: **[Releases → Latest](https://github.com/hubfolks/hubfolks-rel
 
 ## First launch
 
-The pilot builds are not signed yet, so your system shows a warning the first time.
-
 **macOS**
+
+Since version 0.1.3, the macOS app is signed and notarized by Apple: it opens without any warning.
+
 1. Open the `.dmg` and drag **HubFolks** into **Applications**.
-2. Open HubFolks. macOS says it cannot verify the app: click **Done**.
-3. Open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to HubFolks. Confirm.
-4. Updates: HubFolks tells you when a new version is available and opens the download; replace the app in **Applications**.
+   - If macOS asks for an administrator password, your account is not an administrator (common on company Macs). Drag **HubFolks** into the **Applications** folder of your home folder instead: in Finder, **Go → Home** (⇧⌘H), then open **Applications**. HubFolks runs and updates the same way from there.
+2. Open HubFolks.
+3. Updates install automatically: HubFolks offers **Restart now** when one is ready. If you installed 0.1.2 or earlier, install the latest `.dmg` once by hand.
 
 **Windows**
+
+The Windows build is not signed yet, so Windows shows a warning the first time.
+
 1. Run `HubFolks-<version>.exe`.
 2. If "Windows protected your PC" appears, click **More info**, then **Run anyway**.
 3. Updates install automatically: HubFolks offers **Restart now** when one is ready.
