@@ -1,13 +1,16 @@
-# HubFolks — desktop app releases
+# HubFolks — app releases
 
-Installers for the HubFolks desktop app (macOS and Windows). The app updates itself once installed.
+Installers for the HubFolks apps: desktop (macOS and Windows) and Android. The apps update themselves once installed.
+Desktop and Android are released separately, with their own version numbers: desktop releases are tagged `v<version>`, Android releases `android-v<version>`.
 
 ## Download
 
-Latest release: **[Releases → Latest](https://github.com/hubfolks/hubfolks-releases/releases/latest)**
+**Desktop**: latest release: **[Releases → Latest](https://github.com/hubfolks/hubfolks-releases/releases/latest)**
 
 - **macOS** (Apple Silicon and Intel): `HubFolks-<version>.dmg`
 - **Windows** (64-bit): `HubFolks-<version>.exe`
+
+**Android** (tablets and phones, Android 7.0 or later): **[HubFolks.apk](https://github.com/hubfolks/hubfolks-releases/releases/download/android-latest/HubFolks.apk)**, always the latest version.
 
 ## First launch
 
@@ -27,6 +30,11 @@ The Windows build is not signed yet, so Windows shows a warning the first time.
 1. Run `HubFolks-<version>.exe`.
 2. If "Windows protected your PC" appears, click **More info**, then **Run anyway**.
 3. Updates install automatically: HubFolks offers **Restart now** when one is ready.
+
+**Android**
+1. On the tablet or phone, download **[HubFolks.apk](https://github.com/hubfolks/hubfolks-releases/releases/download/android-latest/HubFolks.apk)**.
+2. Open it. If Android asks, allow your browser to **install unknown apps**, then tap **Install**.
+3. Updates: when a new version is available, HubFolks shows **Update available**. Tap **Download**, then open the downloaded file and tap **Update**.
 
 ## Sign in
 
